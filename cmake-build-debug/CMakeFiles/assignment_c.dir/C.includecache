@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ikutaoki/CLionProjects/assignment-c/main.c
+stdio.h
+-
+memory.h
+-
+string.h
+-
+struct.h
+-
+
