@@ -3,14 +3,12 @@
 #include <string.h>
 #include <struct.h>
 
-//Tao struct sinhvien
 typedef struct sinhvien {
     char maSV[50];
     char ten[50];
     char sdt[50];
 } SINHVIEN;
 
-//Tao mang sinhvien
 SINHVIEN mangSV[10];
 int i = 0;
 
@@ -42,7 +40,7 @@ nhapMoi() {
             fgets(mangSV[i].ten, sizeof(mangSV[i].ten) * sizeof(char), stdin);
             removeStdChar(mangSV[i].ten);
 
-            printf("\nNhập số điện: ");
+            printf("\nNhập số điện thoại: ");
             fgets(mangSV[i].sdt, sizeof(mangSV[i].sdt) * sizeof(char), stdin);
             removeStdChar(mangSV[i].sdt);
             i++;
